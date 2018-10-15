@@ -1,0 +1,33 @@
+@mixin placeholder {
+	&::-webkit-input-placeholder	{@content};
+	&::-moz-placeholder				{@content};
+	&:-moz-placeholder				{@content};
+	&:-ms-input-placeholder			{@content}; 
+}
+
+@mixin clearfix {
+	&:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+}
+
+@mixin grayscale {
+	filter: gray; // IE6-9
+	filter: grayscale(1); // Microsoft Edge and Firefox 35+
+	-webkit-filter: grayscale(1); // Google Chrome, Safari 6+ & Opera 15+
+}
+
+@mixin background-flatout {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -9999px;
+	right: -9999px;
+	z-index: -1;
+}

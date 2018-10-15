@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Description">
+	<meta name="author" content="smirnow_s">
+
+	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="./lib/normalize.css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Kelnik</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container header--container">
+				
+				<div class="header--main">
+					<a href="./" class="logo">
+						<img src="./img/logo@2x.png" alt="Логотип" class="logo--img">			
+					</a>
+					
+					<button type="button" class="menu menu--toggler js-menu-toggler">
+					  <svg class="menu--ham js-menu-ham menu--ham-active" viewBox="0 0 28.5 23.29">
+					    <line class="line" x1="1.5" y1="1.5" x2="27" y2="1.5"/>
+					    <line class="line-mid-1" x1="1.5" y1="11.65" x2="27" y2="11.65"/>
+					    <line class="line-mid-2" x1="1.5" y1="11.65" x2="27" y2="11.65"/>
+					    <line class="line" x1="1.5" y1="21.79" x2="27" y2="21.79"/>
+					  </svg>
+					</button>	
+				</div>
+
+				<div class="header--collapse js-collapse">
+					<div class="nav">
+						<ul class="nav--list">
+							<li class="nav--item"><a href="#" class="nav--link">Объекты</a></li>
+							<li class="nav--item"><a href="#" class="nav--link">Компания</a></li>
+							<li class="nav--item"><a href="#" class="nav--link">Как купить</a></li>
+							<li class="nav--item"><a href="#" class="nav--link">Агентам</a></li>
+							<li class="nav--item"><a href="#" class="nav--link">Регионам</a></li>
+							<li class="nav--item"><a href="#" class="nav--link">Акции</a></li>
+							<li class="nav--item"><a href="#" class="nav--link">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="contact">
+						<a href="tel:+7888888898" class="contact--tel">8 888 88 88 98</a>
+						<div class="contact--note">Звони скорее!</div>
+					</div>
+				</div>
+
+
+			</div>
+		</header>
+		<div class="content">
+			<div class="content--container">
+				<div class="content--header">
+					<h1 class="content--title">Найдено 666 квартир</h1>
+				</div>
+				<div class="content--main">
+					<div class="content--filter">
+						<div class="filter">
+							<span class="filter--title">Сортировать по:</span>
+							<button class="filter--but">
+								<span class="filter--link">Цене</span>
+							</button>
+							<button class="filter--but">
+								<span class="filter--link">Комнатам</span>
+							</button>
+						</div>
+					</div>
+					<div class="content--list">
+
+						
+						<div class="product content--product" data-room="0">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item"></li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites discount--favorites-active">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-1.png" alt="room-1" class="product--img">
+								</figure>
+								<h3 class="product--title">Студия №44</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">без отделки</li>
+										<li class="info--item">28 м<sup>2</sup> площадь</li>
+										<li class="info--item">12/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">1 900 000 руб.</span>								
+							</div>
+							<button class="product--but">Забронировано</button>
+						</div>
+
+						<div class="product content--product product-free" data-room="1">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item"></li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-2.png" alt="room-2" class="product--img">
+								</figure>
+								<h3 class="product--title">Однокомнатная №666</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">базовая отделка</li>
+										<li class="info--item">66 м<sup>2</sup> площадь</li>
+										<li class="info--item">6/6 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">1 666 666 руб.</span>								
+							</div>
+							<button class="product--but product--but-free">Свободно</button>
+						</div>
+
+						<div class="product content--product product-sold" data-room="2">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item"></li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites discount--favorites-active">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-3.png" alt="room-3" class="product--img">
+								</figure>
+								<h3 class="product--title">Двухкомнатная №567</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">черновая отделка</li>
+										<li class="info--item">65.6 м<sup>2</sup> площадь</li>
+										<li class="info--item">7/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">5 900 000 руб.</span>								
+							</div>
+							<button class="product--but product--but-sold">Продано</button>
+						</div>
+
+						<div class="product content--product" data-room="3">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item"></li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-4.png" alt="room-4" class="product--img">
+								</figure>
+								<h3 class="product--title">Трехкомнатная №45</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">без отделки</li>
+										<li class="info--item">56 м<sup>2</sup> площадь</li>
+										<li class="info--item">1/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">12 900 000 руб.</span>								
+							</div>
+							<button class="product--but">Забронировано</button>
+						</div>
+
+						<div class="product content--product" data-room="0">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item">-17%</li>
+									<li class="discount--item">шок цена!</li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites discount--favorites-active">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-5.png" alt="room-5" class="product--img">
+								</figure>
+								<h3 class="product--title">Студия №25</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">черновая отделка</li>
+										<li class="info--item">18 м<sup>2</sup> площадь</li>
+										<li class="info--item">12/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">1 900 000 руб.</span>								
+							</div>
+							<button class="product--but">Забронировано</button>
+						</div>
+
+						<div class="product content--product" data-room="4">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item">-6%</li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-6.png" alt="room-6" class="product--img">
+								</figure>
+								<h3 class="product--title">Четырехкомнатная  №259</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">черновая отделка</li>
+										<li class="info--item">98 м<sup>2</sup> площадь</li>
+										<li class="info--item">14/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">23 900 000 руб.</span>								
+							</div>
+							<button class="product--but">Забронировано</button>
+						</div>
+
+						<div class="product content--product product-free" data-room="1">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item"></li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-7.png" alt="room-7" class="product--img">
+								</figure>
+								<h3 class="product--title">Однокомнатная №56</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">без отделки</li>
+										<li class="info--item">36 м<sup>2</sup> площадь</li>
+										<li class="info--item">3/6 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">5 666 666 руб.</span>								
+							</div>
+							<button class="product--but product--but-free">Свободно</button>
+						</div>
+
+						<div class="product content--product product-free" data-room="3">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item"></li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-8.png" alt="room-8" class="product--img">
+								</figure>
+								<h3 class="product--title">Трехкомнтаная №46</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">черновая отделка</li>
+										<li class="info--item">86 м<sup>2</sup> площадь</li>
+										<li class="info--item">1/6 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">5 696 664 руб.</span>								
+							</div>
+							<button class="product--but product--but-free">Свободно</button>
+						</div>
+
+						<div class="product content--product" data-room="1">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item">-9%</li>
+									<li class="discount--item">шок цена!</li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-9.png" alt="room-9" class="product--img">
+								</figure>
+								<h3 class="product--title">Однокомнатная №2</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">черновая отделка</li>
+										<li class="info--item">18 м<sup>2</sup> площадь</li>
+										<li class="info--item">3/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">1 200 000 руб.</span>								
+							</div>
+							<button class="product--but">Забронировано</button>
+						</div>
+
+						<div class="product content--product" data-room="0">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item">-6%</li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-10.png" alt="room-10" class="product--img">
+								</figure>
+								<h3 class="product--title">Студия  №259</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">черновая отделка</li>
+										<li class="info--item">38 м<sup>2</sup> площадь</li>
+										<li class="info--item">6/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">1 500 500 руб.</span>								
+							</div>
+							<button class="product--but">Забронировано</button>
+						</div>
+
+						<div class="product content--product" data-room="1">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item"></li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-11.png" alt="room-11" class="product--img">
+								</figure>
+								<h3 class="product--title">Однакомнатная №8</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">черновая отделка</li>
+										<li class="info--item">48 м<sup>2</sup> площадь</li>
+										<li class="info--item">3/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">6 200 000 руб.</span>								
+							</div>
+							<button class="product--but">Забронировано</button>
+						</div>
+
+						<div class="product content--product" data-room="2">
+							<div class="product--discount discount">
+								<ul class="discount--list">
+									<li class="discount--item">-6%</li>
+									<li class="discount--item"></li>
+								</ul>
+								<button type="button" alt="favorites" class="discount--favorites discount--favorites">
+								</button>
+							</div>
+
+							<div class="product--details">
+								<figure class="product--fig">
+									<img src="./img/room-6.png" alt="room-6" class="product--img">
+								</figure>
+								<h3 class="product--title">Двухкомнатная №23</h3>
+								<div class="product--info info">
+									<ul class="info--list">
+										<li class="info--item">базовая отделка</li>
+										<li class="info--item">48 м<sup>2</sup> площадь</li>
+										<li class="info--item">3/14 этаж</li>
+									</ul>
+								</div>
+								<span class="product--price">5 255 006 руб.</span>								
+							</div>
+							<button class="product--but">Забронировано</button>
+						</div>
+
+					</div>
+
+					<div class="content--footer">
+						<button class="but-more">Показать еще 20</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer--container">
+				<div class="footer--aside">
+					<div class="footer--text1">Успей купить!</div>
+					<div class="footer--text2">Подпишись и успей словить все акции</div>
+				</div>
+				<div class="footer--bside">
+					<form method="POST" action="#" class="form">
+						<div class="form--group">
+							<label for="email" class="form--label">E-mail</label>
+							<input id="email" type="email" placeholder="E-mail" class="form--input">
+						</div>
+						<div class="form--group">
+							<button type="submit" class="form--submit">Подписаться</button>
+						</div>
+						<div class="form--group">
+							<input type="checkbox" class="form--checkbox">
+							<span class="form--span">подписаться на новости</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<button type="button" class="up js-up"></button>
+	<!-- Pre-loader -->
+	<div class="loader">
+		<div class="loaderInner">
+			<!-- GIF? Animated SVG? -->
+		</div>
+	</div>
+	<!-- Pre-loader -->
+	<script src="./lib/jquery/dist/jquery.min.js"></script>
+	<script src="./js/main.js"></script>	
+</body>
+</html>

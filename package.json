@@ -1,0 +1,25 @@
+{
+  "name": "kelnik",
+  "version": "1.0.0",
+  "description": "smirnow_s",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "smirnow_s",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-npm-dist": "^1.0.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
